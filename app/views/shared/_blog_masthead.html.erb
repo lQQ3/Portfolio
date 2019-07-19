@@ -1,0 +1,7 @@
+<div class="blog-header">
+  <div class="container">
+    <h1 class="blog-title">The "Screaming into the Void" Blog</h1>
+    <p class="lead blog-description">It's still ranting, but now it has a professional looking header.</p>
+    <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+  </div>
+</div>
