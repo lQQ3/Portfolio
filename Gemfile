@@ -80,3 +80,8 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
+gem 'carrierwave-aws', '~> 1.3'
+
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
+
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.4'
